@@ -1,0 +1,22 @@
+bin
+obj
+*.sln.DotSettings.user
+.vs
+vendor
+.idea
+*.iml
+**/*.received.*
+venv
+.idea/
+*.iml
+target/
+
+.classpath
+.project
+bin/
+.settings/
+
+# Gradle
+.gradle
+/build/
+
