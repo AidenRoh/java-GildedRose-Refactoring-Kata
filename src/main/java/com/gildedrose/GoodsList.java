@@ -8,7 +8,7 @@ public enum GoodsList {
     AGED_BRIE("Aged Brie", GoodsPolicy::agedBrie, 50),
     SULFURAS("Sulfuras, Hand of Ragnaros", GoodsPolicy::sulfuras, 80),
     BACKSTAGE("Backstage passes to a TAFKAL80ETC concert", GoodsPolicy::backStage, 50),
-    CONJURED("Conjured", GoodsPolicy::conjured, 50),
+    CONJURED("Conjured Mana Cake", GoodsPolicy::conjured, 50),
     DEFAULT("DEFAULT", GoodsPolicy::gildedRoseDefault, 50);
 
     private final Predicate<String> matchResult;
@@ -30,7 +30,7 @@ public enum GoodsList {
             .orElse(DEFAULT);
     }
 
-    public void updateItemQuality(Item item) {
+    public void update(Item item) {
         this.goodsPolicy.apply(item);
     }
 

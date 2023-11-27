@@ -9,7 +9,7 @@ class GildedRose {
 
     public void updateQuality() {
         for (Item item : items) {
-            GoodsList.find(item).updateItemQuality(item);
+            GoodsList.find(item).update(item);
         }
     }
 
