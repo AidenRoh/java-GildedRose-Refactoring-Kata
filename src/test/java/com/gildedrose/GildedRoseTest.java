@@ -26,6 +26,8 @@ class GildedRoseTest {
             arguments("Aged Brie", 0, 0, 2),
             arguments("Sulfuras, Hand of Ragnaros", 0, 2, 80),
             arguments("Sulfuras, Hand of Ragnaros", 1, 2, 80),
+            arguments("Conjured", 1, 4, 2),
+            arguments("Conjured", 0, 4, 0),
             arguments("Backstage passes to a TAFKAL80ETC concert", 15, 0, 1),
             arguments("Backstage passes to a TAFKAL80ETC concert", 10, 0, 2),
             arguments("Backstage passes to a TAFKAL80ETC concert", 5, 0, 3),
